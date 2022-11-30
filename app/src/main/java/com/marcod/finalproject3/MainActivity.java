@@ -107,14 +107,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "6");
-            }
-        });
-
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
